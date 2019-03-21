@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta charset="UTF-8">
+<style type="text/css">
+body {
+	background-image: url("ricardo.gif");
+	background-size: contain;
+	color: red;
+}
+</style>
+<title>ADD</title>
+
+</head>
+<body>
+	<form action="/WEB/ADD" method="get">
+		First value <br> <input type="number" name="NUMBER1" 
+			pattern="[0-9]{1-7}"> <br> Second value <br> <input
+			type="number" name="NUMBER2" pattern="[0-9]{1-7}"> <br>
+		<input type="submit" 
+			value="Enter values to get sum and to immediately die" >
+	</form>
+	<form action="/WEB/ADD" method="post">
+		First value <br> <input type="number" name="NUMBER1" 
+			pattern="[0-9]{1-7}"> <br> Second value <br> <input
+			type="number" name="NUMBER2" pattern="[0-9]{1-7}"> <br>
+		<input type="submit"
+			value="Enter values to get sum and to immediately die">
+	</form>
+</body>
+</html>
